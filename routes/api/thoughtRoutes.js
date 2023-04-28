@@ -17,7 +17,7 @@ router
     .get(oneThought)
     .delete(deleteThought)
     .put(updateThought)
-    .put(addReaction); // this one?
+    // .put(addReaction); // this one?
 
 router.route('/:thoughtId/reactions/').put(addReaction); // or this one?
 
